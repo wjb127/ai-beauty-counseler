@@ -10,6 +10,17 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
+  # 사용자 인증 관련 라우트
+  get "login" => "sessions#new"
+  post "login" => "sessions#create"
+  delete "logout" => "sessions#destroy"
+  get "signup" => "users#new"
+  post "signup" => "users#create"
+  get "profile" => "users#show"
+  
+  # 동적 콘텐츠 라우트
+  get "update_time" => "pages#update_time"
+
   # Defines the root path route ("/")
   root "pages#home"
 end

@@ -1,0 +1,11 @@
+<%= turbo_frame_tag "dynamic_content" do %>
+  <div id="time-display" class="text-center">
+    <div class="bg-white rounded-xl p-6 shadow-lg">
+      <p class="text-lg sm:text-xl text-gray-700 mb-4">
+        현재 시간: <span class="font-mono font-bold text-blue-600"><%= Time.current.strftime("%Y-%m-%d %H:%M:%S") %></span>
+      </p>
+      <%= link_to "시간 업데이트", update_time_path, 
+          class: "bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 inline-block shadow-lg" %>
+    </div>
+  </div>
+<% end %> 
