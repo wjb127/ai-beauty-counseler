@@ -52,6 +52,8 @@ export default class extends Controller {
   }
 
   async analyzeImage() {
+    console.log('=== AI 분석 시작 ===')
+    
     // 로딩 상태로 변경
     this.waitingStateTarget.classList.add('hidden')
     this.loadingStateTarget.classList.remove('hidden')
@@ -61,6 +63,14 @@ export default class extends Controller {
     try {
       // 이미지를 base64로 변환
       const imageData = this.previewImageTarget.src
+      console.log('Image data length:', imageData ? imageData.length : 0)
+      console.log('Image data preview:', imageData ? imageData.substring(0, 100) : 'No data')
+
+      if (!imageData) {
+        throw new Error('이미지 데이터가 없습니다.')
+      }
+
+      console.log('Sending request to /analyze_image...')
 
       // API 호출
       const response = await fetch('/analyze_image', {
@@ -74,15 +84,25 @@ export default class extends Controller {
         })
       })
 
+      console.log('Response status:', response.status)
+      console.log('Response headers:', Object.fromEntries(response.headers.entries()))
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
       const result = await response.json()
+      console.log('Response result:', result)
 
       if (result.success) {
+        console.log('Analysis successful')
         this.displayResult(result.analysis)
         // 남은 횟수 업데이트
         if (result.remaining_count !== undefined) {
           this.updateCountDisplay(result.remaining_count, result.total_limit)
         }
       } else {
+        console.log('Analysis failed:', result.error)
         if (result.limit_exceeded) {
           this.displayLimitExceeded(result.error)
         } else {
@@ -90,13 +110,29 @@ export default class extends Controller {
         }
       }
     } catch (error) {
-      console.error('Analysis error:', error)
-      this.displayError('네트워크 오류가 발생했습니다. 다시 시도해주세요.')
+      console.error('=== Analysis Error ===')
+      console.error('Error type:', error.constructor.name)
+      console.error('Error message:', error.message)
+      console.error('Error stack:', error.stack)
+      
+      let errorMessage = '네트워크 오류가 발생했습니다.'
+      
+      if (error.message.includes('HTTP')) {
+        errorMessage = `서버 오류: ${error.message}`
+      } else if (error.message.includes('Failed to fetch')) {
+        errorMessage = '서버에 연결할 수 없습니다. 서버가 실행 중인지 확인해주세요.'
+      } else if (error.message) {
+        errorMessage = error.message
+      }
+      
+      this.displayError(errorMessage)
     }
 
     // 버튼 상태 복원
     this.analyzeButtonTarget.disabled = false
     this.analyzeButtonTextTarget.textContent = '다시 분석하기'
+    
+    console.log('=== AI 분석 종료 ===')
   }
 
   displayResult(analysis) {

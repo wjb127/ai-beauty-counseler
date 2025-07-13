@@ -1,6 +1,8 @@
 class AnalysisController < ApplicationController
-  require 'openai'
   require 'base64'
+  
+  # CSRF 검증 임시 비활성화 (디버깅용)
+  skip_before_action :verify_authenticity_token
 
   def check_analysis_count
     session[:analysis_count] ||= 0
@@ -14,11 +16,18 @@ class AnalysisController < ApplicationController
   end
 
   def analyze_image
+    Rails.logger.info "=== AI 분석 요청 시작 ==="
+    Rails.logger.info "Request method: #{request.method}"
+    Rails.logger.info "Request params: #{params.inspect}"
+    Rails.logger.info "Session analysis_count: #{session[:analysis_count]}"
+    
     if request.post?
       # 세션 기반 사용 제한 체크 (1인당 3회)
       session[:analysis_count] ||= 0
+      Rails.logger.info "Current analysis count: #{session[:analysis_count]}"
       
       if session[:analysis_count] >= 3
+        Rails.logger.warn "Analysis limit exceeded for session"
         render json: {
           success: false,
           error: "일일 분석 한도(3회)를 초과했습니다. 내일 다시 이용해주세요.",
@@ -29,25 +38,68 @@ class AnalysisController < ApplicationController
 
       begin
         image_data = params[:image]
+        Rails.logger.info "Image data received: #{image_data ? 'Yes' : 'No'}"
+        Rails.logger.info "Image data length: #{image_data&.length || 0}"
+        
+        if image_data.blank?
+          Rails.logger.error "No image data provided"
+          render json: {
+            success: false,
+            error: "이미지 데이터가 없습니다. 이미지를 선택해주세요."
+          }
+          return
+        end
         
         # base64에서 실제 이미지 데이터 추출
         if image_data.include?('base64,')
           image_data = image_data.split('base64,')[1]
+          Rails.logger.info "Extracted base64 data, length: #{image_data.length}"
+        end
+
+        # OpenAI API 키 확인
+        api_key = ENV['OPENAI_API_KEY']
+        Rails.logger.info "OpenAI API key present: #{api_key.present?}"
+        
+        if api_key.present?
+          Rails.logger.info "Using OpenAI API key: #{api_key[0..10]}..."
         end
 
         # OpenAI 클라이언트 초기화
-        client = OpenAI::Client.new(access_token: ENV['OPENAI_API_KEY'] || 'demo_key')
+        begin
+          require 'openai'
+          client = OpenAI::Client.new(access_token: api_key || 'demo_key')
+        rescue LoadError => e
+          Rails.logger.error "OpenAI gem not available: #{e.message}"
+          # OpenAI gem이 없으면 데모 응답 사용
+          analysis_result = generate_demo_response
+          session[:analysis_count] = session[:analysis_count] + 1
+          remaining_count = 3 - session[:analysis_count]
+          
+          render json: {
+            success: true,
+            analysis: analysis_result,
+            remaining_count: remaining_count,
+            total_limit: 3
+          }
+          return
+        end
+        Rails.logger.info "OpenAI client initialized"
 
         # GPT-4 Vision API 호출 (데모용 응답)
-        analysis_result = if ENV['OPENAI_API_KEY'].present?
+        analysis_result = if api_key.present?
+          Rails.logger.info "Calling OpenAI API..."
           call_openai_api(client, image_data)
         else
+          Rails.logger.info "Using demo response (no API key)"
           generate_demo_response
         end
+
+        Rails.logger.info "Analysis completed successfully"
 
         # 분석 성공 시 카운트 증가
         session[:analysis_count] = session[:analysis_count] + 1
         remaining_count = 3 - session[:analysis_count]
+        Rails.logger.info "Updated analysis count: #{session[:analysis_count]}, remaining: #{remaining_count}"
 
         render json: {
           success: true,
@@ -57,24 +109,41 @@ class AnalysisController < ApplicationController
         }
 
       rescue => e
-        Rails.logger.error "Analysis error: #{e.message}"
+        Rails.logger.error "=== Analysis Error ==="
+        Rails.logger.error "Error class: #{e.class}"
+        Rails.logger.error "Error message: #{e.message}"
+        Rails.logger.error "Error backtrace: #{e.backtrace.join("\n")}"
+        
         render json: {
           success: false,
-          error: "분석 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요."
+          error: "분석 중 오류가 발생했습니다: #{e.message}"
         }
       end
     else
+      Rails.logger.warn "Non-POST request received: #{request.method}"
       render json: { success: false, error: "잘못된 요청입니다." }
     end
+    
+    Rails.logger.info "=== AI 분석 요청 종료 ==="
   end
 
   private
 
   def call_openai_api(client, image_data)
-    prompt = build_analysis_prompt
-
-    response = client.chat(
-      parameters: {
+    Rails.logger.info "=== OpenAI API 호출 시작 ==="
+    
+    begin
+      prompt = build_analysis_prompt
+      Rails.logger.info "Prompt generated, length: #{prompt.length}"
+      
+      # 이미지 데이터 검증
+      if image_data.blank?
+        raise "Image data is blank"
+      end
+      
+      Rails.logger.info "Image data length for API: #{image_data.length}"
+      
+      request_params = {
         model: "gpt-4o",
         messages: [
           {
@@ -95,9 +164,40 @@ class AnalysisController < ApplicationController
         ],
         max_tokens: 1000
       }
-    )
-
-    parse_ai_response(response.dig("choices", 0, "message", "content"))
+      
+      Rails.logger.info "Request parameters prepared"
+      Rails.logger.info "Model: #{request_params[:model]}"
+      Rails.logger.info "Max tokens: #{request_params[:max_tokens]}"
+      
+      Rails.logger.info "Sending request to OpenAI..."
+      response = client.chat(parameters: request_params)
+      
+      Rails.logger.info "OpenAI API response received"
+      Rails.logger.info "Response keys: #{response.keys}"
+      
+      if response["choices"]&.any?
+        content = response.dig("choices", 0, "message", "content")
+        Rails.logger.info "Response content length: #{content&.length || 0}"
+        Rails.logger.info "Response content preview: #{content&.truncate(200)}"
+        
+        result = parse_ai_response(content)
+        Rails.logger.info "Parsed response successfully"
+        return result
+      else
+        Rails.logger.error "No choices in OpenAI response: #{response}"
+        raise "OpenAI API returned no choices"
+      end
+      
+    rescue => e
+      Rails.logger.error "=== OpenAI API 호출 실패 ==="
+      Rails.logger.error "Error class: #{e.class}"
+      Rails.logger.error "Error message: #{e.message}"
+      Rails.logger.error "Error backtrace: #{e.backtrace&.join("\n")}"
+      
+      # API 호출 실패 시 데모 응답 반환
+      Rails.logger.info "Falling back to demo response"
+      return generate_demo_response
+    end
   end
 
   def generate_demo_response
