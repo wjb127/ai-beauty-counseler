@@ -96,7 +96,7 @@ export default class extends Controller {
 
       if (result.success) {
         console.log('Analysis successful')
-        this.displayResult(result.analysis)
+        this.displayAnalysisResult(result)
         // 남은 횟수 업데이트
         if (result.remaining_count !== undefined) {
           this.updateCountDisplay(result.remaining_count, result.total_limit)
@@ -135,50 +135,95 @@ export default class extends Controller {
     console.log('=== AI 분석 종료 ===')
   }
 
-  displayResult(analysis) {
-    this.loadingStateTarget.classList.add('hidden')
-    this.resultContentTarget.classList.remove('hidden')
+  displayAnalysisResult(result) {
+    console.log("=== 분석 결과 표시 시작 ===");
+    console.log("결과 데이터:", result);
     
-    this.resultContentTarget.innerHTML = `
-      <div class="space-y-6">
-        <!-- 분석 요약 -->
-        <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
-          <h4 class="font-semibold text-blue-800 mb-2">📋 AI 분석 요약</h4>
-          <p class="text-blue-700 text-sm">${analysis.summary || '전반적인 피부 상태를 분석했습니다.'}</p>
+    const resultContent = this.resultContentTarget;
+    
+    // 새로운 구조에 맞춘 결과 표시
+    const analysis = result.analysis || result;
+    
+    resultContent.innerHTML = `
+      <div class="space-y-4 text-left">
+        <!-- 피부 분석 -->
+        <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+          <h4 class="font-semibold text-blue-800 mb-2">📋 피부 상태 분석</h4>
+          <p class="text-sm text-blue-700">${analysis.skin_analysis || '분석 결과를 불러오는 중입니다.'}</p>
         </div>
-
+        
         <!-- 추천 시술 -->
-        <div class="space-y-3">
-          <h4 class="font-semibold text-gray-800">💡 추천 시술</h4>
-          ${this.renderRecommendations(analysis.recommendations)}
+        <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
+          <h4 class="font-semibold text-green-800 mb-2">✅ 추천 시술 (우선순위별)</h4>
+          <div class="space-y-2">
+            ${Array.isArray(analysis.recommended_treatments) ? 
+              analysis.recommended_treatments.map((treatment, index) => 
+                `<div class="text-sm text-green-700">
+                  <span class="font-medium">${index + 1}.</span> ${treatment}
+                </div>`
+              ).join('') : 
+              `<p class="text-sm text-green-700">${analysis.recommended_treatments || '추천 시술을 분석 중입니다.'}</p>`
+            }
+          </div>
         </div>
-
-        <!-- 주의사항 -->
-        <div class="space-y-3">
-          <h4 class="font-semibold text-gray-800">⚠️ 주의사항</h4>
-          ${this.renderWarnings(analysis.warnings)}
-        </div>
-
-        <!-- 예상 비용 -->
-        ${analysis.cost_estimate ? `
-          <div class="bg-green-50 rounded-lg p-4">
-            <h4 class="font-semibold text-green-800 mb-2">💰 예상 비용 범위</h4>
-            <p class="text-green-700 text-sm">${analysis.cost_estimate}</p>
+        
+        <!-- 불필요한 시술 경고 -->
+        ${analysis.unnecessary_treatments ? `
+          <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
+            <h4 class="font-semibold text-red-800 mb-2">⚠️ 불필요할 수 있는 시술</h4>
+            <div class="space-y-1">
+              ${Array.isArray(analysis.unnecessary_treatments) ? 
+                analysis.unnecessary_treatments.map(treatment => 
+                  `<div class="text-sm text-red-700">• ${treatment}</div>`
+                ).join('') : 
+                `<p class="text-sm text-red-700">${analysis.unnecessary_treatments}</p>`
+              }
+            </div>
           </div>
         ` : ''}
-
-        <!-- 다음 단계 -->
-        <div class="bg-gray-50 rounded-lg p-4">
-          <h4 class="font-semibold text-gray-800 mb-2">🎯 다음 단계</h4>
-          <ul class="text-sm text-gray-600 space-y-1">
-            <li>• 이 분석 결과를 출력하여 병원 상담 시 참고자료로 활용</li>
-            <li>• 여러 병원에서 견적을 받아 비교 검토</li>
-            <li>• 급하지 않다면 충분한 시간을 두고 신중하게 결정</li>
-            <li>• 의사의 설명과 AI 분석을 종합하여 최종 판단</li>
-          </ul>
+        
+        <!-- 비용 정보 -->
+        <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
+          <h4 class="font-semibold text-yellow-800 mb-2">💰 예상 비용</h4>
+          <p class="text-sm text-yellow-700 font-medium">${analysis.estimated_cost || '비용을 계산 중입니다.'}</p>
+          ${analysis.cost_saving_tips ? `
+            <div class="mt-2 pt-2 border-t border-yellow-200">
+              <p class="text-xs text-yellow-600"><strong>💡 절약 팁:</strong> ${analysis.cost_saving_tips}</p>
+            </div>
+          ` : ''}
+        </div>
+        
+        <!-- 시급성 -->
+        <div class="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500">
+          <h4 class="font-semibold text-purple-800 mb-2">⏰ 시급성</h4>
+          <p class="text-sm text-purple-700">
+            <span class="inline-block px-2 py-1 rounded text-xs font-medium ${
+              analysis.priority === '높음' ? 'bg-red-100 text-red-800' :
+              analysis.priority === '중간' ? 'bg-yellow-100 text-yellow-800' :
+              'bg-green-100 text-green-800'
+            }">
+              ${analysis.priority || '중간'}
+            </span>
+          </p>
+        </div>
+        
+        <!-- 추가 조언 -->
+        <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-gray-400">
+          <h4 class="font-semibold text-gray-800 mb-2">📝 전문의 상담 시 확인사항</h4>
+          <p class="text-sm text-gray-700">${analysis.additional_notes || '전문의와 상담하여 정확한 진단을 받으시기 바랍니다.'}</p>
+        </div>
+        
+        <!-- 면책 조항 -->
+        <div class="bg-orange-50 p-3 rounded-lg border border-orange-200">
+          <p class="text-xs text-orange-700">
+            <strong>⚠️ 중요:</strong> 이 분석은 참고용이며 의료 진단을 대체하지 않습니다. 
+            실제 시술 전에는 반드시 전문의와 직접 상담하시기 바랍니다.
+          </p>
         </div>
       </div>
-    `
+    `;
+    
+    console.log("=== 분석 결과 표시 완료 ===");
   }
 
   renderRecommendations(recommendations) {
