@@ -2948,3 +2948,197 @@ Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at
   
 ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
   
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:44:37 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | GC: 3.3ms)
+Completed 200 OK in 47ms (Views: 15.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.3ms)
+
+
+Started GET "/assets/tailwind-3c4d63e3.css" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:44:38 +0900
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-07-13 15:44:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | GC: 0.2ms)
+Completed 200 OK in 41ms (Views: 9.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:45:07 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 35ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:45:18 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | GC: 0.1ms)
+Completed 200 OK in 40ms (Views: 9.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:47:31 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:47:32 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | GC: 0.7ms)
+Completed 200 OK in 52ms (Views: 13.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 7.0ms)
+
+
+Started GET "/assets/tailwind-cb841e75.css" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:55:22 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:55:23 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:55:23 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:55:23 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.1ms)
+Completed 200 OK in 38ms (Views: 8.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:56:28 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:57:53 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.2ms)
+Completed 200 OK in 39ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:57:54 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 8.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/demo_controller-8f92e2fa.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 15:58:02 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 15:58:03 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 15:58:03 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 15:58:03 +0900
