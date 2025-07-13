@@ -12,6 +12,27 @@ export default class extends Controller {
     this.uploadAreaTarget.addEventListener('click', () => {
       this.fileInputTarget.click()
     })
+    
+    // 페이지 로드 시 남은 분석 횟수 확인
+    this.checkRemainingCount()
+  }
+
+  async checkRemainingCount() {
+    try {
+      const response = await fetch('/check_analysis_count', {
+        method: 'GET',
+        headers: {
+          'X-CSRF-Token': document.querySelector('[name="csrf-token"]').content
+        }
+      })
+      
+      const result = await response.json()
+      if (result.remaining_count !== undefined) {
+        this.updateCountDisplay(result.remaining_count, result.total_limit)
+      }
+    } catch (error) {
+      console.log('카운트 확인 중 오류:', error)
+    }
   }
 
   handleFileSelect(event) {
@@ -57,8 +78,16 @@ export default class extends Controller {
 
       if (result.success) {
         this.displayResult(result.analysis)
+        // 남은 횟수 업데이트
+        if (result.remaining_count !== undefined) {
+          this.updateCountDisplay(result.remaining_count, result.total_limit)
+        }
       } else {
-        this.displayError(result.error || '분석 중 오류가 발생했습니다.')
+        if (result.limit_exceeded) {
+          this.displayLimitExceeded(result.error)
+        } else {
+          this.displayError(result.error || '분석 중 오류가 발생했습니다.')
+        }
       }
     } catch (error) {
       console.error('Analysis error:', error)
@@ -165,6 +194,40 @@ export default class extends Controller {
         <button onclick="location.reload()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm">
           다시 시도하기
         </button>
+      </div>
+    `
+  }
+
+  updateCountDisplay(remaining, total) {
+    const countInfo = document.getElementById('analysis-count-info')
+    if (countInfo) {
+      countInfo.innerHTML = `
+        <div class="text-center mb-4">
+          <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+            남은 분석 횟수: ${remaining}/${total}
+          </span>
+        </div>
+      `
+    }
+  }
+
+  displayLimitExceeded(message) {
+    this.loadingStateTarget.classList.add('hidden')
+    this.resultContentTarget.classList.remove('hidden')
+    
+    this.resultContentTarget.innerHTML = `
+      <div class="text-center py-8">
+        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+          </svg>
+        </div>
+        <h4 class="text-lg font-semibold text-gray-800 mb-2">분석 횟수 초과</h4>
+        <p class="text-gray-600 mb-4">${message}</p>
+        <div class="bg-blue-50 rounded-lg p-4 text-sm text-blue-800">
+          <p class="font-medium mb-2">💡 더 많은 분석을 원하시나요?</p>
+          <p>프리미엄 서비스 출시 예정! 사전 예약하시면 특별 할인 혜택을 드립니다.</p>
+        </div>
       </div>
     `
   }

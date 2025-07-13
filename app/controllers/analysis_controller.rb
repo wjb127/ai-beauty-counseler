@@ -2,8 +2,31 @@ class AnalysisController < ApplicationController
   require 'openai'
   require 'base64'
 
+  def check_analysis_count
+    session[:analysis_count] ||= 0
+    remaining_count = 3 - session[:analysis_count]
+    
+    render json: {
+      remaining_count: remaining_count,
+      total_limit: 3,
+      used_count: session[:analysis_count]
+    }
+  end
+
   def analyze_image
     if request.post?
+      # 세션 기반 사용 제한 체크 (1인당 3회)
+      session[:analysis_count] ||= 0
+      
+      if session[:analysis_count] >= 3
+        render json: {
+          success: false,
+          error: "일일 분석 한도(3회)를 초과했습니다. 내일 다시 이용해주세요.",
+          limit_exceeded: true
+        }
+        return
+      end
+
       begin
         image_data = params[:image]
         
@@ -22,9 +45,15 @@ class AnalysisController < ApplicationController
           generate_demo_response
         end
 
+        # 분석 성공 시 카운트 증가
+        session[:analysis_count] = session[:analysis_count] + 1
+        remaining_count = 3 - session[:analysis_count]
+
         render json: {
           success: true,
-          analysis: analysis_result
+          analysis: analysis_result,
+          remaining_count: remaining_count,
+          total_limit: 3
         }
 
       rescue => e
@@ -46,7 +75,7 @@ class AnalysisController < ApplicationController
 
     response = client.chat(
       parameters: {
-        model: "gpt-4-vision-preview",
+        model: "gpt-4o",
         messages: [
           {
             role: "user",

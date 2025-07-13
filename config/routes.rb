@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   # AI 이미지 분석 API
   post '/analyze_image', to: 'analysis#analyze_image'
+  get '/check_analysis_count', to: 'analysis#check_analysis_count'
 
   # 사전예약 API
   post '/pre_orders', to: 'pre_orders#create'
