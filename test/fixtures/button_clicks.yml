@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ip_address: MyString
+  user_agent: MyString
+  clicked_at: 2025-07-13 14:32:14
+
+two:
+  ip_address: MyString
+  user_agent: MyString
+  clicked_at: 2025-07-13 14:32:14

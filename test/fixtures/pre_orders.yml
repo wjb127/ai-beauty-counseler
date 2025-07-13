@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  marketing_consent: false
+  created_at: 2025-07-13 14:22:27
+
+two:
+  email: MyString
+  marketing_consent: false
+  created_at: 2025-07-13 14:22:27

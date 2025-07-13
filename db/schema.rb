@@ -10,5 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 0) do
+ActiveRecord::Schema[8.0].define(version: 2025_07_13_053214) do
+  create_table "button_clicks", force: :cascade do |t|
+    t.string "ip_address"
+    t.string "user_agent"
+    t.datetime "clicked_at", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["clicked_at"], name: "index_button_clicks_on_clicked_at"
+    t.index ["ip_address"], name: "index_button_clicks_on_ip_address"
+  end
+
+  create_table "pre_orders", force: :cascade do |t|
+    t.string "email"
+    t.boolean "marketing_consent", default: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 end

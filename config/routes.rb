@@ -1,6 +1,26 @@
 Rails.application.routes.draw do
-  get "pages/home"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root "pages#home"
+
+  # 사전예약 API
+  post '/pre_orders', to: 'pre_orders#create'
+  
+  # 버튼 클릭 추적 API
+  post '/button_clicks', to: 'button_clicks#create'
+
+  # 관리자 인증
+  get '/admin/login', to: 'admin#login', as: 'admin_login'
+  post '/admin/login', to: 'admin#login'
+  delete '/admin/logout', to: 'admin#logout', as: 'admin_logout'
+  get '/admin/dashboard', to: 'admin#dashboard'
+
+  # 데이터 다운로드
+  get '/admin/download_pre_orders', to: 'admin#download_pre_orders', as: 'admin_download_pre_orders'
+
+  # 데이터 삭제
+  delete '/admin/pre_orders/:id', to: 'admin#destroy_pre_order'
+  delete '/admin/pre_orders', to: 'admin#destroy_all_pre_orders', as: 'admin_pre_orders'
+  delete '/admin/button_clicks/:id', to: 'admin#destroy_button_click', as: 'admin_button_click'
+  delete '/admin/button_clicks', to: 'admin#destroy_all_button_clicks', as: 'admin_button_clicks'
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.
@@ -10,17 +30,6 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
-  # 사용자 인증 관련 라우트
-  get "login" => "sessions#new"
-  post "login" => "sessions#create"
-  delete "logout" => "sessions#destroy"
-  get "signup" => "users#new"
-  post "signup" => "users#create"
-  get "profile" => "users#show"
-  
-  # 동적 콘텐츠 라우트
-  get "update_time" => "pages#update_time"
-
   # Defines the root path route ("/")
-  root "pages#home"
+  # root "posts#index"
 end

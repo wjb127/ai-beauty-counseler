@@ -1372,3 +1372,1268 @@ Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2
 Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:01:40 +0900
 Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:01:40 +0900
 Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:01:40 +0900
+Started HEAD "/" for ::1 at 2025-07-13 14:06:26 +0900
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.2ms)
+Completed 200 OK in 43ms (Views: 9.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:07:28 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | GC: 0.0ms)
+Completed 200 OK in 43ms (Views: 5.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-00a224e7.css" for 127.0.0.1 at 2025-07-13 14:07:28 +0900
+Started GET "/assets/controllers/modal_controller-cef10fb4.js" for 127.0.0.1 at 2025-07-13 14:07:28 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 38ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/modal_controller-cef10fb4.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:08:03 +0900
+Started GET "/" for ::1 at 2025-07-13 14:11:54 +0900
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 30ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-13 14:12:02 +0900
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 33ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-13 14:12:57 +0900
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | GC: 0.0ms)
+Completed 200 OK in 35ms (Views: 5.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/" for ::1 at 2025-07-13 14:13:05 +0900
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 32ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 7.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/assets/tailwind-51203cc0.css" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:15:19 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/assets/controllers/modal_controller-cb6f853d.js" for 127.0.0.1 at 2025-07-13 14:15:20 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | GC: 0.2ms)
+Completed 200 OK in 46ms (Views: 10.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/modal_controller-cb6f853d.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:21:23 +0900
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Migrating to CreatePreOrders (20250713052227)
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Migrating to CreatePreOrders (20250713052227)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "pre_orders" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "marketing_consent" boolean DEFAULT 0, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20250713052227') RETURNING "version" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Started HEAD "/admin/login" for ::1 at 2025-07-13 14:26:00 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Processing by AdminController#login as */*
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 8.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | GC: 0.1ms)
+Completed 200 OK in 52ms (Views: 18.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2025-07-13 14:26:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dashboard"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 14:26:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Exists? (6.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('test1@example.com') LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Create (0.1ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('test1@example.com', 1, '2025-07-13 05:28:22.060801', '2025-07-13 05:28:22.060801') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('test2@example.com') LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Create (2.8ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('test2@example.com', 0, '2025-07-13 05:28:22.066693', '2025-07-13 05:28:22.066693') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('user@gmail.com') LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Create (0.1ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('user@gmail.com', 1, '2025-07-13 05:28:22.088641', '2025-07-13 05:28:22.088641') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('sample@naver.com') LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('sample@naver.com', 0, '2025-07-13 05:28:22.111993', '2025-07-13 05:28:22.111993') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('demo@kakao.com') LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mPreOrder Create (0.1ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('demo@kakao.com', 1, '2025-07-13 05:28:22.122140', '2025-07-13 05:28:22.122140') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 14:28:42 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 3.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 10.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-4bf123f8.css" for 127.0.0.1 at 2025-07-13 14:28:42 +0900
+Started GET "/assets/controllers/modal_controller-2d9462ce.js" for 127.0.0.1 at 2025-07-13 14:28:42 +0900
+Started POST "/admin/authenticate" for 127.0.0.1 at 2025-07-13 14:28:46 +0900
+Processing by AdminController#authenticate as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 49ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:28:46 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:6:in `dashboard'
+  [1m[36mPreOrder Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:7:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:87
+  [1m[36mPreOrder Load (0.3ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:98
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 26.2ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | GC: 0.4ms)
+Completed 200 OK in 81ms (Views: 27.7ms | ActiveRecord: 11.3ms (4 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/assets/tailwind-bc42e6da.css" for 127.0.0.1 at 2025-07-13 14:28:46 +0900
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:28:46 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:6:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:7:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:87
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:98
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 9.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | GC: 0.0ms)
+Completed 200 OK in 47ms (Views: 10.4ms | ActiveRecord: 0.3ms (4 queries, 0 cached) | GC: 0.0ms)
+
+
+Started HEAD "/admin/dashboard" for ::1 at 2025-07-13 14:30:47 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Processing by AdminController#dashboard as */*
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as :authenticate_admin rendered or redirected
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:6:in `dashboard'
+  [1m[36mPreOrder Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:7:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (3.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:108
+  [1m[36mPreOrder Load (0.5ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:120
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 29.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | GC: 12.4ms)
+Completed 200 OK in 129ms (Views: 56.8ms | ActiveRecord: 6.5ms (4 queries, 0 cached) | GC: 12.4ms)
+
+
+Started GET "/assets/tailwind-8a84f966.css" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/modal_controller-2d9462ce.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:31:18 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:31:19 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:31:19 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:31:19 +0900
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:31:29 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 36ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/modal_controller-2d9462ce.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:31:30 +0900
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Migrating to CreateButtonClicks (20250713053214)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "button_clicks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "ip_address" varchar, "user_agent" varchar, "clicked_at" datetime(6) NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='AiBeautyCounselor'*/[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_button_clicks_on_clicked_at" ON "button_clicks" ("clicked_at") /*application='AiBeautyCounselor'*/[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_button_clicks_on_ip_address" ON "button_clicks" ("ip_address") /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20250713053214') RETURNING "version" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mButtonClick Create (5.9ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)', '2025-07-13 04:35:22.616647', '2025-07-13 05:35:22.639055', '2025-07-13 05:35:22.639055') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mButtonClick Create (1.4ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('192.168.1.100', 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X)', '2025-07-13 03:35:22.648670', '2025-07-13 05:35:22.649279', '2025-07-13 05:35:22.649279') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mButtonClick Create (4.7ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('10.0.0.50', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', '2025-07-13 02:35:22.654735', '2025-07-13 05:35:22.659922', '2025-07-13 05:35:22.659922') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mButtonClick Create (1.1ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)', '2025-07-13 01:35:22.679578', '2025-07-13 05:35:22.680851', '2025-07-13 05:35:22.680851') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='AiBeautyCounselor'*/[0m
+  [1m[36mButtonClick Create (2.6ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('172.16.0.20', 'Mozilla/5.0 (Android 12; Mobile)', '2025-07-13 00:35:22.689914', '2025-07-13 05:35:22.690544', '2025-07-13 05:35:22.690544') RETURNING "id" /*application='AiBeautyCounselor'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='AiBeautyCounselor'*/[0m
+Started HEAD "/" for ::1 at 2025-07-13 14:35:28 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Processing by PagesController#home as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | GC: 0.2ms)
+Completed 200 OK in 78ms (Views: 23.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 12.9ms)
+
+
+Started GET "/admin/pre_orders/5" for 127.0.0.1 at 2025-07-13 14:36:08 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/admin/pre_orders/5"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 14:36:10 +0900
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:36:10 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:6:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:7:in `dashboard'
+  [1m[36mButtonClick Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.2ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:13:in `dashboard'
+  [1m[36mButtonClick Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:36:11.121626' AND '2025-07-13 05:36:11.121679' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:14:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:163
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:175
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:225
+  [1m[36mButtonClick Load (0.0ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:236
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 40.4ms | GC: 4.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | GC: 4.6ms)
+Completed 200 OK in 173ms (Views: 42.7ms | ActiveRecord: 4.3ms (10 queries, 0 cached) | GC: 8.4ms)
+
+
+Started GET "/assets/tailwind-e2152fca.css" for 127.0.0.1 at 2025-07-13 14:36:11 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 14:36:11 +0900
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:51:28 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (3.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:51:28.483389' AND '2025-07-13 05:51:28.483802' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 3.7ms (6 queries, 0 cached) | GC: 6.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+Caused by: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+
+Information for: ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+     8:           <p class="text-gray-600">사전예약 이메일 수집 현황</p>
+     9:         </div>
+    10:         <div class="flex space-x-4">
+    11:           <%= link_to "CSV 다운로드", admin_export_path(format: :csv), 
+    12:               class: "bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium" %>
+    13:           <% if @total_count > 0 %>
+    14:             <%= link_to "전체 삭제", admin_delete_all_path, 
+  
+app/views/admin/dashboard.html.erb:11
+
+Information for cause: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+  
+app/views/admin/dashboard.html.erb:11
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 14:51:29 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:51:36 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:51:36.652513' AND '2025-07-13 05:51:36.653043' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.5ms (6 queries, 0 cached) | GC: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+Caused by: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+
+Information for: ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+     8:           <p class="text-gray-600">사전예약 이메일 수집 현황</p>
+     9:         </div>
+    10:         <div class="flex space-x-4">
+    11:           <%= link_to "CSV 다운로드", admin_export_path(format: :csv), 
+    12:               class: "bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium" %>
+    13:           <% if @total_count > 0 %>
+    14:             <%= link_to "전체 삭제", admin_delete_all_path, 
+  
+app/views/admin/dashboard.html.erb:11
+
+Information for cause: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+  
+app/views/admin/dashboard.html.erb:11
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 14:51:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started POST "/admin/authenticate" for 127.0.0.1 at 2025-07-13 14:51:42 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/admin/authenticate"):
+  
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 14:51:42 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 5.0ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | GC: 0.4ms)
+Completed 200 OK in 46ms (Views: 14.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/assets/tailwind-042be176.css" for 127.0.0.1 at 2025-07-13 14:51:42 +0900
+Started POST "/admin/login" for 127.0.0.1 at 2025-07-13 14:51:47 +0900
+Processing by AdminController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 34ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:51:47 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:51:47.571590' AND '2025-07-13 05:51:47.571641' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.3ms (6 queries, 0 cached) | GC: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+Caused by: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>)
+
+Information for: ActionView::Template::Error (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+     8:           <p class="text-gray-600">사전예약 이메일 수집 현황</p>
+     9:         </div>
+    10:         <div class="flex space-x-4">
+    11:           <%= link_to "CSV 다운로드", admin_export_path(format: :csv), 
+    12:               class: "bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium" %>
+    13:           <% if @total_count > 0 %>
+    14:             <%= link_to "전체 삭제", admin_delete_all_path, 
+  
+app/views/admin/dashboard.html.erb:11
+
+Information for cause: NoMethodError (undefined method `admin_export_path' for an instance of #<Class:0x000000015abf8fc8>):
+  
+app/views/admin/dashboard.html.erb:11
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 5.1ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | GC: 0.7ms)
+Completed 200 OK in 78ms (Views: 17.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/assets/tailwind-5cb9f9d7.css" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/counter_controller-8e5d7e87.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/stats_controller-37199aaa.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/modal_controller-e9ed2bb2.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/controllers/todo_controller-0e526eaf.js" for 127.0.0.1 at 2025-07-13 14:53:37 +0900
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-07-13 14:53:38 +0900
+Started GET "/assets/controllers/consultation_controller-b4a31fba.js" for 127.0.0.1 at 2025-07-13 14:53:38 +0900
+Started GET "/assets/turbo.min-3a2e143f.js" for 127.0.0.1 at 2025-07-13 14:53:38 +0900
+Started POST "/admin/login" for 127.0.0.1 at 2025-07-13 14:53:41 +0900
+Processing by AdminController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.6ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:53:41 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:53:41.556274' AND '2025-07-13 05:53:41.556773' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 5.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 1.8ms (6 queries, 0 cached) | GC: 4.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `>' for nil)
+Caused by: NoMethodError (undefined method `>' for nil)
+
+Information for: ActionView::Template::Error (undefined method `>' for nil):
+    91:               <dl>
+    92:                 <dt class="text-sm font-medium text-gray-500 truncate">마케팅 동의율</dt>
+    93:                 <dd class="text-lg font-medium text-gray-900">
+    94:                   <%= @total_count > 0 ? "#{(@marketing_consent_count.to_f / @total_count * 100).round(1)}%" : "0%" %>
+    95:                 </dd>
+    96:               </dl>
+    97:             </div>
+  
+app/views/admin/dashboard.html.erb:94
+
+Information for cause: NoMethodError (undefined method `>' for nil):
+  
+app/views/admin/dashboard.html.erb:94
+Started GET "/" for 127.0.0.1 at 2025-07-13 14:53:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='AiBeautyCounselor'*/[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | GC: 0.0ms)
+Completed 200 OK in 90ms (Views: 20.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-aa5a2219.css" for 127.0.0.1 at 2025-07-13 14:53:49 +0900
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 14:53:53 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 8.0ms | GC: 1.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | GC: 1.0ms)
+Completed 200 OK in 45ms (Views: 13.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2025-07-13 14:53:57 +0900
+Processing by AdminController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:53:57 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (3.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:53:57.234665' AND '2025-07-13 05:53:57.234723' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 6.9ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | GC: 0.1ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 6.4ms (6 queries, 0 cached) | GC: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `>' for nil)
+Caused by: NoMethodError (undefined method `>' for nil)
+
+Information for: ActionView::Template::Error (undefined method `>' for nil):
+    91:               <dl>
+    92:                 <dt class="text-sm font-medium text-gray-500 truncate">마케팅 동의율</dt>
+    93:                 <dd class="text-lg font-medium text-gray-900">
+    94:                   <%= @total_count > 0 ? "#{(@marketing_consent_count.to_f / @total_count * 100).round(1)}%" : "0%" %>
+    95:                 </dd>
+    96:               </dl>
+    97:             </div>
+  
+app/views/admin/dashboard.html.erb:94
+
+Information for cause: NoMethodError (undefined method `>' for nil):
+  
+app/views/admin/dashboard.html.erb:94
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 14:58:31 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 3.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | GC: 0.6ms)
+Completed 200 OK in 51ms (Views: 15.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2025-07-13 14:58:36 +0900
+Processing by AdminController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 46ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.9ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:36 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:36.300671' AND '2025-07-13 05:58:36.303239' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:249
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 45.8ms | GC: 3.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | GC: 3.6ms)
+Completed 200 OK in 121ms (Views: 46.5ms | ActiveRecord: 4.2ms (11 queries, 1 cached) | GC: 3.6ms)
+
+
+Started DELETE "/admin/button_clicks/1" for 127.0.0.1 at 2025-07-13 14:58:39 +0900
+Processing by AdminController#destroy_button_click as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mButtonClick Load (0.8ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" WHERE "button_clicks"."id" = 1 LIMIT 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:61:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mButtonClick Destroy (1.3ms)[0m  [1m[31mDELETE FROM "button_clicks" WHERE "button_clicks"."id" = 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 56ms (ActiveRecord: 2.8ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:39 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:39.796978' AND '2025-07-13 05:58:39.797773' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.0ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  [1m[36mButtonClick Load (0.0ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:249
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 21.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | GC: 0.0ms)
+Completed 200 OK in 61ms (Views: 24.4ms | ActiveRecord: 0.4ms (11 queries, 1 cached) | GC: 0.6ms)
+
+
+Started DELETE "/admin/button_clicks/2" for 127.0.0.1 at 2025-07-13 14:58:41 +0900
+Processing by AdminController#destroy_button_click as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"2"}
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" WHERE "button_clicks"."id" = 2 LIMIT 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:61:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mButtonClick Destroy (0.7ms)[0m  [1m[31mDELETE FROM "button_clicks" WHERE "button_clicks"."id" = 2 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 51ms (ActiveRecord: 0.9ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:41 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:41.836737' AND '2025-07-13 05:58:41.836770' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:249
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 17.2ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | GC: 0.5ms)
+Completed 200 OK in 66ms (Views: 17.7ms | ActiveRecord: 0.6ms (11 queries, 1 cached) | GC: 0.5ms)
+
+
+Started DELETE "/admin/button_clicks/3" for 127.0.0.1 at 2025-07-13 14:58:43 +0900
+Processing by AdminController#destroy_button_click as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" WHERE "button_clicks"."id" = 3 LIMIT 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:61:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mButtonClick Destroy (0.6ms)[0m  [1m[31mDELETE FROM "button_clicks" WHERE "button_clicks"."id" = 3 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 41ms (ActiveRecord: 0.8ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:43 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:43.407948' AND '2025-07-13 05:58:43.407977' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:249
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 9.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | GC: 0.0ms)
+Completed 200 OK in 48ms (Views: 11.3ms | ActiveRecord: 0.4ms (11 queries, 1 cached) | GC: 0.0ms)
+
+
+Started DELETE "/admin/button_clicks/4" for 127.0.0.1 at 2025-07-13 14:58:44 +0900
+Processing by AdminController#destroy_button_click as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" WHERE "button_clicks"."id" = 4 LIMIT 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:61:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mButtonClick Destroy (0.4ms)[0m  [1m[31mDELETE FROM "button_clicks" WHERE "button_clicks"."id" = 4 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 40ms (ActiveRecord: 0.5ms (2 queries, 0 cached) | GC: 3.1ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:44 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:44.917296' AND '2025-07-13 05:58:44.917367' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  [1m[36mButtonClick Load (0.0ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:249
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | GC: 0.0ms)
+Completed 200 OK in 44ms (Views: 3.3ms | ActiveRecord: 0.3ms (11 queries, 1 cached) | GC: 0.5ms)
+
+
+Started DELETE "/admin/button_clicks/5" for 127.0.0.1 at 2025-07-13 14:58:47 +0900
+Processing by AdminController#destroy_button_click as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" WHERE "button_clicks"."id" = 5 LIMIT 1 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:61:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mButtonClick Destroy (0.4ms)[0m  [1m[31mDELETE FROM "button_clicks" WHERE "button_clicks"."id" = 5 /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_button_click',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:62:in `destroy_button_click'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 36ms (ActiveRecord: 0.8ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:47 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:47.403049' AND '2025-07-13 05:58:47.403079' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 5.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | GC: 0.0ms)
+Completed 200 OK in 41ms (Views: 5.7ms | ActiveRecord: 0.5ms (10 queries, 1 cached) | GC: 0.0ms)
+
+
+Started DELETE "/admin/pre_orders/5" for 127.0.0.1 at 2025-07-13 14:58:48 +0900
+Processing by AdminController#destroy_pre_order as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" WHERE "pre_orders"."id" = 5 LIMIT 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:50:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mPreOrder Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pre_orders" WHERE "pre_orders"."id" = 5 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 40ms (ActiveRecord: 0.6ms (2 queries, 0 cached) | GC: 2.2ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:48 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:48.555830' AND '2025-07-13 05:58:48.555969' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 3.9ms | ActiveRecord: 0.3ms (10 queries, 1 cached) | GC: 0.5ms)
+
+
+Started DELETE "/admin/pre_orders/4" for 127.0.0.1 at 2025-07-13 14:58:49 +0900
+Processing by AdminController#destroy_pre_order as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" WHERE "pre_orders"."id" = 4 LIMIT 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:50:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mPreOrder Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pre_orders" WHERE "pre_orders"."id" = 4 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 34ms (ActiveRecord: 0.5ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:49 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:49.852848' AND '2025-07-13 05:58:49.852975' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.0ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 33ms (Views: 3.6ms | ActiveRecord: 0.3ms (10 queries, 1 cached) | GC: 0.0ms)
+
+
+Started DELETE "/admin/pre_orders/3" for 127.0.0.1 at 2025-07-13 14:58:50 +0900
+Processing by AdminController#destroy_pre_order as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" WHERE "pre_orders"."id" = 3 LIMIT 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:50:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mPreOrder Destroy (0.6ms)[0m  [1m[31mDELETE FROM "pre_orders" WHERE "pre_orders"."id" = 3 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 38ms (ActiveRecord: 0.8ms (2 queries, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:50 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:50.898576' AND '2025-07-13 05:58:50.899789' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.0ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 44ms (Views: 2.7ms | ActiveRecord: 0.5ms (10 queries, 1 cached) | GC: 0.5ms)
+
+
+Started DELETE "/admin/pre_orders/2" for 127.0.0.1 at 2025-07-13 14:58:51 +0900
+Processing by AdminController#destroy_pre_order as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"2"}
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" WHERE "pre_orders"."id" = 2 LIMIT 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:50:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mPreOrder Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pre_orders" WHERE "pre_orders"."id" = 2 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 34ms (ActiveRecord: 0.6ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:51 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:51.810033' AND '2025-07-13 05:58:51.810058' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mPreOrder Load (0.0ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:177
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 4.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | GC: 0.0ms)
+Completed 200 OK in 35ms (Views: 5.3ms | ActiveRecord: 0.3ms (10 queries, 1 cached) | GC: 0.0ms)
+
+
+Started DELETE "/admin/pre_orders/1" for 127.0.0.1 at 2025-07-13 14:58:52 +0900
+Processing by AdminController#destroy_pre_order as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" WHERE "pre_orders"."id" = 1 LIMIT 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:50:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mPreOrder Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pre_orders" WHERE "pre_orders"."id" = 1 /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='destroy_pre_order',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:51:in `destroy_pre_order'
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 34ms (ActiveRecord: 0.5ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 14:58:52 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 05:58:52.380848' AND '2025-07-13 05:58:52.380874' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:165
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:226
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:235
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 2.6ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | GC: 0.5ms)
+Completed 200 OK in 35ms (Views: 5.4ms | ActiveRecord: 0.2ms (9 queries, 1 cached) | GC: 0.5ms)
+
+
+Started GET "/admin/logout" for 127.0.0.1 at 2025-07-13 14:58:56 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/admin/logout"):
+  
+Started GET "/admin/logout" for 127.0.0.1 at 2025-07-13 15:01:40 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/admin/logout"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 15:01:40 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 15:01:43 +0900
+Processing by AdminController#dashboard as HTML
+  [1m[36mPreOrder Count (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 06:01:43.315078' AND '2025-07-13 06:01:43.315109' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:166
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:227
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:236
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 14.3ms | GC: 3.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | GC: 4.1ms)
+Completed 200 OK in 112ms (Views: 28.0ms | ActiveRecord: 3.1ms (9 queries, 1 cached) | GC: 4.1ms)
+
+
+Started DELETE "/admin/logout" for 127.0.0.1 at 2025-07-13 15:01:46 +0900
+Processing by AdminController#logout as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:01:46 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | GC: 0.0ms)
+Completed 200 OK in 42ms (Views: 5.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/button_clicks" for 127.0.0.1 at 2025-07-13 15:01:48 +0900
+Processing by ButtonClicksController#create as */*
+  Parameters: {"button_click"=>{}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='create',application='AiBeautyCounselor',controller='button_clicks'*/[0m
+  ↳ app/controllers/button_clicks_controller.rb:9:in `create'
+  [1m[36mButtonClick Create (0.5ms)[0m  [1m[32mINSERT INTO "button_clicks" ("ip_address", "user_agent", "clicked_at", "created_at", "updated_at") VALUES ('127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', '2025-07-13 06:01:49.019170', '2025-07-13 06:01:49.028028', '2025-07-13 06:01:49.028028') RETURNING "id" /*action='create',application='AiBeautyCounselor',controller='button_clicks'*/[0m
+  ↳ app/controllers/button_clicks_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='create',application='AiBeautyCounselor',controller='button_clicks'*/[0m
+  ↳ app/controllers/button_clicks_controller.rb:9:in `create'
+Completed 200 OK in 79ms (Views: 3.4ms | ActiveRecord: 1.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/pre_orders" for 127.0.0.1 at 2025-07-13 15:01:52 +0900
+Processing by PreOrdersController#create as */*
+  Parameters: {"pre_order"=>{"email"=>"[FILTERED]", "marketing_consent"=>true}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='create',application='AiBeautyCounselor',controller='pre_orders'*/[0m
+  ↳ app/controllers/pre_orders_controller.rb:5:in `create'
+  [1m[36mPreOrder Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" WHERE LOWER("pre_orders"."email") = LOWER('wjb127@naver.com') LIMIT 1 /*action='create',application='AiBeautyCounselor',controller='pre_orders'*/[0m
+  ↳ app/controllers/pre_orders_controller.rb:5:in `create'
+  [1m[36mPreOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "pre_orders" ("email", "marketing_consent", "created_at", "updated_at") VALUES ('wjb127@naver.com', 1, '2025-07-13 06:01:52.456149', '2025-07-13 06:01:52.456149') RETURNING "id" /*action='create',application='AiBeautyCounselor',controller='pre_orders'*/[0m
+  ↳ app/controllers/pre_orders_controller.rb:5:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='create',application='AiBeautyCounselor',controller='pre_orders'*/[0m
+  ↳ app/controllers/pre_orders_controller.rb:5:in `create'
+Completed 200 OK in 80ms (Views: 0.7ms | ActiveRecord: 1.0ms (2 queries, 0 cached) | GC: 2.7ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2025-07-13 15:01:56 +0900
+Processing by AdminController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/login.html.erb within layouts/application
+  Rendered admin/login.html.erb within layouts/application (Duration: 2.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2025-07-13 15:01:59 +0900
+Processing by AdminController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "password"=>"[FILTERED]", "commit"=>"로그인"}
+Redirected to http://127.0.0.1:3000/admin/dashboard
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2025-07-13 15:01:59 +0900
+Processing by AdminController#dashboard as TURBO_STREAM
+  [1m[36mPreOrder Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:21:in `dashboard'
+  [1m[36mPreOrder Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pre_orders" WHERE "pre_orders"."marketing_consent" = 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:22:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:11:in `total_clicks'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(DISTINCT "button_clicks"."ip_address") FROM "button_clicks" /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/models/button_click.rb:15:in `unique_visitors'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-13 00:00:00' AND '2025-07-13 23:59:59.999999' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:28:in `dashboard'
+  [1m[36mButtonClick Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "button_clicks" WHERE "button_clicks"."clicked_at" BETWEEN '2025-07-06 06:01:59.781776' AND '2025-07-13 06:01:59.782018' /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/controllers/admin_controller.rb:29:in `dashboard'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/dashboard.html.erb within layouts/application
+  [1m[36mPreOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "pre_orders" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:166
+  [1m[36mPreOrder Load (0.1ms)[0m  [1m[34mSELECT "pre_orders".* FROM "pre_orders" ORDER BY "pre_orders"."created_at" DESC /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:178
+  [1m[36mButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:227
+  [1m[36mCACHE ButtonClick Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "button_clicks" LIMIT 1[0m
+  ↳ app/views/admin/dashboard.html.erb:236
+  [1m[36mButtonClick Load (0.1ms)[0m  [1m[34mSELECT "button_clicks".* FROM "button_clicks" ORDER BY "button_clicks"."clicked_at" DESC LIMIT 10 /*action='dashboard',application='AiBeautyCounselor',controller='admin'*/[0m
+  ↳ app/views/admin/dashboard.html.erb:250
+  Rendered admin/dashboard.html.erb within layouts/application (Duration: 17.9ms | GC: 6.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | GC: 6.9ms)
+Completed 200 OK in 53ms (Views: 21.3ms | ActiveRecord: 0.5ms (11 queries, 1 cached) | GC: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-13 15:02:05 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | GC: 3.6ms)
+Completed 200 OK in 39ms (Views: 5.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.6ms)
+
+
